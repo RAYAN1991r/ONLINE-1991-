@@ -1376,7 +1376,7 @@ zamo73.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!message.author.id) return;
-    if (message.member.voiceChannel) {
+    if (message.member.e3) {
       message.member.voiceChannel
         .join()
         .then(connection => {
@@ -6140,7 +6140,7 @@ zamo200.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-zamo.login("");
+zamo.login("OTc4MjUyOTU1ODU5OTQ3NTcy.GLqGqf.Bp02kwK8sq95y8nQ6FLqJ4yvY4am6To98HyXqU");
 zamo2.login("");
 zamo3.login("");
 zamo4.login("");
